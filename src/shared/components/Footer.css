@@ -1,0 +1,25 @@
+.footer-section {
+    background-color: #3E2A66;
+    color: #848080;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: fit-content;
+    width: 100%;
+    font-size: 9px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.footer-section {
+    background-color: #3E2A66;
+    color: #848080;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+}

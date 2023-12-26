@@ -1,0 +1,44 @@
+{
+  "Monday": {
+    "freedom": ["Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Traveler"],
+    "prosperity": ["Keqing", "Ningguang", "Qiqi", "Traveler", "Xiao"],
+    "transience": ["Sangonomiya_Kokomi", "Thoma", "Traveler", "Yoimiya"],
+    "equity": ["Lyney", "Neuvillette", "Traveler"]
+  },
+  "Tuesday": {
+    "resistance": ["Bennett", "Diluc", "Eula", "Jean", "Mona", "Noelle", "Razor", "Traveler"],
+    "diligence": ["Chongyun", "Ganyu", "Hu_Tao", "Kaedehara_Kazuha", "Traveler", "Xiangling", "Yun_Jin"],
+    "ingenuity": ["Alhaitham", "Dori", "Layla", "Nahida", "Traveler"],
+    "justice": [  "Freminet" , "Traveler"]
+  },
+  "Wednesday": {
+    "ballad": ["Albedo", "Fischl", "Kaeya", "Lisa", "Rosaria", "Venti", "Traveler"],
+    "gold": ["Beidou", "Traveler", "Xingqiu", "Xinyan", "Yanfei", "Zhongli"],
+    "elegance": ["Arataki_Itto", "Kamisato_Ayaka" , "Traveler"],
+    "light": ["Gorou", "Raiden_Shogun", "Sayu", "Traveler", "Yae_Miko"]
+  },
+  "Thursday": {
+    "freedom": ["Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Traveler"],
+    "prosperity": ["Keqing", "Ningguang", "Qiqi", "Traveler", "Xiao"],
+    "transience": ["Sangonomiya_Kokomi", "Thoma", "Traveler", "Yoimiya"],
+    "equity": ["Lyney", "Neuvillette", "Traveler"]
+  },
+  "Friday": {
+    "resistance": ["Bennett", "Diluc", "Eula", "Jean", "Mona", "Noelle", "Razor", "Traveler"],
+    "diligence": ["Chongyun", "Ganyu", "Hu_Tao", "Kaedehara_Kazuha", "Traveler", "Xiangling", "Yun_Jin"],
+    "ingenuity": ["Alhaitham", "Dori", "Layla", "Nahida", "Traveler"],
+    "justice": [  "Freminet" , "Traveler"]
+  },
+  "Saturday": {
+    "ballad": ["Albedo", "Fischl", "Kaeya", "Lisa", "Rosaria", "Venti", "Traveler"],
+    "gold": ["Beidou", "Traveler", "Xingqiu", "Xinyan", "Yanfei", "Zhongli"],
+    "elegance": ["Arataki_Itto", "Kamisato_Ayaka" , "Traveler"],
+    "light": ["Gorou", "Raiden_Shogun", "Sayu", "Traveler", "Yae_Miko"]
+  },
+  "Sunday": {
+    "freedom": ["Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Traveler"],
+    "prosperity": ["Keqing", "Ningguang", "Qiqi", "Traveler", "Xiao"],
+    "transience": ["Sangonomiya_Kokomi", "Thoma", "Traveler", "Yoimiya"],
+    "equity": ["Lyney", "Neuvillette", "Traveler"]
+  }
+}

@@ -1,0 +1,331 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+body{
+    background-color: #3E2A66;
+}
+
+@media only screen and (max-width: 600px) {
+   
+.content-navbar {
+    background-color: #3E2A66;
+    color: whitesmoke;
+}
+
+.day-container {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbox ul {
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 ;
+    padding : 0 ;
+}
+.navbox ul li{
+    padding : 9px ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.selected-nav{
+    border-bottom: 3px solid rgb(245, 245, 245) ;
+}
+
+.character-container {
+    background-color: #130331;
+    height: 80vh;
+    width: 100vw;
+    overflow: auto;
+    text-align: center;
+}
+
+.character-box{
+    width : 100vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    margin: 0;  
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid rgb(245, 245, 245) ;
+    transition: 0.1s;
+}
+
+.character-title{
+    color: rgb(142, 140, 140);
+    font-size: 14px;
+}
+
+ 
+
+.character-menu{
+    width : 48px ;
+    height : 48px ;
+    background-color: rgb(198, 174, 236) ;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.character-menu img{
+    padding : 5px;
+    width: 30px;
+    height: 30px;
+}
+/** !Modal styling 
+*/
+
+.your-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .your-modal-content {
+    overflow: auto;
+    background-color: #130331;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #130331;
+  }
+  
+.character-search-bar{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin : 20px;
+    border: 2px solid #130331;
+    border-radius: 12px;
+    font-size: 16px;
+    padding : 10px;
+    background-color: #3E2A66;
+    color: whitesmoke;
+    text-align: center;
+}
+ 
+  }
+
+  @media screen and (min-width:601px) {
+    
+.selected-nav{
+    border-right: 3px solid rgb(245, 245, 245) ;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+.content-navbar {
+    background-color: #130331;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.day-container {
+    text-align: center;
+    padding: 5px;
+    font-size: 7px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbox ul {
+    list-style: none;
+    display: flex;
+    font-size: 8px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin: 0 ;
+    padding : 0 ;
+}
+.navbox ul li{
+    padding : 9px ;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.character-container {
+    background-color: #130331;
+    height: 80vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+/* Define the scrollbar style */
+.character-container::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+  }
+  
+  /* Define the thumb style */
+  .character-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #3E2A66 0%, #3E2A66 100%);
+    border-radius: 5px;
+  }
+  
+  /* Define the track style */
+  .character-container::-webkit-scrollbar-track {
+    background-color: #130331;
+  }
+  
+  /* Define the button style */
+  .character-container::-webkit-scrollbar-button {
+    background-color: #130331;
+    border-radius: 5px;
+  }
+  
+  /* Define the button style when being hovered over */
+  .character-container::-webkit-scrollbar-button:hover {
+    background-color: #999999;
+  }
+
+.character-box{
+    width : 90vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    margin: 0px;  
+}
+
+.nav-item:hover{
+    border-right: 2px solid rgb(245, 245, 245) ;
+    transition: 0.1s;
+}
+
+.character-title{
+    color: rgb(142, 140, 140);
+    font-size: 8px;
+}
+
+ 
+
+.character-menu{
+    width : 20px ;
+    height : 20px ;
+    background-color: rgb(198, 174, 236) ;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.character-menu img{
+    padding : 5px;
+    width: 15px;
+    height: 15px;
+}
+/** !Modal styling 
+*/
+
+.your-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .your-modal-content {
+    overflow: auto;
+    background-color: #130331;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #130331;
+  }
+  
+/* Define the scrollbar style */
+.your-modal-content::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+  }
+  
+  /* Define the thumb style */
+  .your-modal-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #3E2A66 0%, #3E2A66 100%);
+    border-radius: 5px;
+  }
+  
+  /* Define the track style */
+  .your-modal-content::-webkit-scrollbar-track {
+    background-color: #130331;
+  }
+  
+  /* Define the button style */
+  .your-modal-content::-webkit-scrollbar-button {
+    background-color: #130331;
+    border-radius: 5px;
+  }
+  
+  /* Define the button style when being hovered over */
+  .your-modal-content::-webkit-scrollbar-button:hover {
+    background-color: #999999;
+  }
+
+  
+.character-search-bar{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin : 10px;
+    border: 2px solid #130331;
+    border-radius: 12px;
+    font-size: 8px;
+    padding : 4px;
+    background-color: #3E2A66;
+    color: whitesmoke;
+    text-align: center;
+}
+ 
+
+}
